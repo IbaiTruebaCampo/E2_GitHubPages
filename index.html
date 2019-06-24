@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Ibai Trueba">
-    <meta name="description" content="Página estatica para promocionar aplicación">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E2</title>
-<!--Enlaces CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  <meta charset="UTF-8">
+  <meta name="author" content="Ibai Trueba">
+  <meta name="description" content="Página estatica para promocionar aplicación">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>E2</title>
+  <!--Enlaces CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body class="container">
-    <header class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10"><h1>Presentación de aplicación CRUD</h1></div>
-        <div class="col-sm-1"></div>
-    </header>
+  <header class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <h1>Presentación de aplicación CRUD</h1>
+    </div>
+    <div class="col-sm-1"></div>
+  </header>
 
-    <section class="row">
-        <div class="col-sm-3"></div>
-        <div class="col">
-            <a href="https://github.com/IbaiTruebaCampo/Territorios.git"><img src="imag/cap.png" class="rounded" alt="Cinque Terre" width="100%" height=""></a>
-        </div>
-        <div class="col-sm-3"></div>
-    </section>
-    <hr>
+  <section class="row">
+    <div class="col-sm-3"></div>
+    <div class="col">
+      <a href="https://github.com/IbaiTruebaCampo/E2_GitHubPages/tree/master"><img src="imag/cap.png" class="rounded"
+          alt="Cinque Terre" width="100%" height=""></a>
+    </div>
+    <div class="col-sm-3"></div>
+  </section>
+  <hr>
 
-    <section class="row">
-            
-    </section>
+  <section class="row">
+    <div>
+      <h2>Compilador de datos para territorios</h2>
+      <p><strong><i>Funcionalidad:</i></strong></p>
+      <p>Esta es una aplicación que nos permite hacer uso de una base de datos en Firebase creando diferentes campos de información, los cuales podremos editar o eliminar según nuestras necesidades.</p>
+      <p><strong><i>Cómo furnciona:</i></strong></p>
+      <p>Primero nos validamos en la aplicación para que nos conceda acceso a las diferentes funcionalidades. Para ello tendremos que estar registrados. El propio menú nos da la opción de acceder con nuestro correo o registrarnos.
+          Una vez pulsemos el botón “Registrar” nos aparecerá una ventana en la que podremos introducir nuestro correo electrónico y una contraseña que tendrá que contener un mínimo de 6 caracteres.
+          Una vez introducidos los datos se enviara un correo de validación para confirmar el registro el cual se almacenara en nuestro proyecto en Firebase.
+          Una vez validados podremos volver a la página de la aplicación y refrescarla o bien si ya estábamos registrados introducir nuestros datos para dentro de los campos correspondientes.
+          Una vez dentro, los botones de registro se sustituyen por un único botón para poder cerrar la sesión.
+          Además se habrán cargado una serie de campos que tendremos que completar para poder guardar posteriormente en la base de datos de Firebase.
+Una vez en la base de datos visualizaremos la información introducida en una especie de tabla, en la que veremos los diferentes elementos que se crean al rellenar los campos las veces que deseemos.
+Estos mismos elementos los podremos manipular gracias a los botones que tenemos al final de ellos, ya sea bien para editarlos o eliminarlos.
+Una vez pulsemos para editarlos, los campos se rellenaran automáticamente con la información del elemento seleccionado y el botón de guardar cambiara por otro que nos permite editar, por lo que solo tendremos que cambiar los datos que deseemos y pulsar dicho botón.
+Si por el contrario lo que queremos es borrar datos solo tendremos que pulsar el botón correspondiente y confirmar la operación.
 
-    <footer class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10"><p>&copy; <span id="copyanio"></span> Ejercicio del modulo ... realizada por: Ibai Trueba Campo.</p></div>
-        <div class="col-sm-1"></div>
-    </footer>
-<!--Enlaces JS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/codigo.js"></script>
+          </p><br>
+          <p>Desde aquí puedes acceder al repositorio: <a href="https://github.com/IbaiTruebaCampo/E2_GitHubPages/tree/master"><i id="icon" class="fab fa-github"> GitHub</i></a></p>
+          <p>Desde aquí puedes acceder a la aplicación en firebase: <a href="https://territorios-721bd.firebaseapp.com/"><i id="icon" class="fas fa-external-link-alt">Aplicación</i></a></p>
+
+    </div>
+  </section>
+
+  <footer class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <p>&copy; <span id="copyanio"></span> Ejercicio del modulo MF0952_2 realizada por: Ibai Trueba Campo.</p>
+    </div>
+    <div class="col-sm-1"></div>
+  </footer>
+  <!--Enlaces JS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/codigo.js"></script>
 </body>
-</html>
 
+</html>
