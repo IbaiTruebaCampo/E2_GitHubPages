@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    background-color: #596c99;
+    color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    background-color: #596c99;
+    color: #fff;
+    padding: 0.5em;
+    height: 2em;
+}
+
+#info {
+    padding: 1em;
+    text-align: justify;
+}
+
+#icon {
+    color: #434e70;
+    font-size: 2em;
+}
